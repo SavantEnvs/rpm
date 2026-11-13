@@ -1,0 +1,8 @@
+project: savantenvs/rpm
+target: fuzz_ndb
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ndb/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ndb
+    libfuzzer: true

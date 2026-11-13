@@ -1,0 +1,1 @@
+[%{FILEFLAGS:fflags} %{FILEDIGESTS:hex}\n]

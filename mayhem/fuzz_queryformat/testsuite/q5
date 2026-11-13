@@ -1,0 +1,1 @@
+[%{FILENAMES}:%{FILEMODE:perms}\n]

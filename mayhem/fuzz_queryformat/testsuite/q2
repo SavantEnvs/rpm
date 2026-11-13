@@ -1,0 +1,1 @@
+%{BUILDTIME:date} %{BUILDTIME:day}
